@@ -1,0 +1,2 @@
+this is a test file for static files
+for django project

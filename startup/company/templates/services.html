@@ -1,0 +1,522 @@
+{% extends 'base.html ' %}
+
+{%block title%}
+Services |
+{%endblock title%}
+{%block body%}
+<style>
+
+
+  .card-product:after {
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden; }
+  .card-product .price-new, .card-product .price {
+    margin-right: 5px; }
+  .card-product .price-old {
+    color: #999; }
+  .card-product .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center; }
+    .card-product .img-wrap img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: cover; }
+      
+      .card-product .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee; }
+  .card-product .action-wrap {
+    padding-top: 4px;
+    margin-top: 4px; }
+  .card-product .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee; }
+  .card-product .title {
+    margin-top: 0; }
+
+</style>
+
+<h1 align="center">Products Section</h1>
+<h2>Best Selling</h2>
+<h2 style="color:white">``</h2>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+
+
+<div class="row">
+<div class="col-md-3">
+	<figure class="card card-product">
+		<div class="img-wrap"> 
+			<img src="/static/img/1.jpg">
+			<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+		</div>
+		<figcaption class="info-wrap">
+			<h6 class="title text-dots"><a href="#">Demin Chrome Dino Tshirt</a></h6>
+			<div class="action-wrap">
+				<a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+				<div class="price-wrap h5">
+					<span class="price-new">Rs1280</span>
+					<span class="price-old">#0001</span>
+				</div> <!-- price-wrap.// -->
+			</div> <!-- action-wrap -->
+		</figcaption>
+	</figure> <!-- card // -->
+</div> <!-- col // -->
+<div class="col-md-3">
+	<figure class="card card-product">
+		<div class="img-wrap"> <img src="/static/img/2.jpg"
+		<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>Quick View </a>
+		</div>
+		<figcaption class="info-wrap">
+			<h6 class="title text-dots"><a href="#">Animal Printed Adidas Tshirt</a></h6>
+			<div class="action-wrap">
+				<a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+				<div class="price-wrap h5">
+					<span class="price-new">Rs2280</span>
+          <span class="price-old">#0002</span>
+				</div> <!-- price-wrap.// -->
+			</div> <!-- action-wrap -->
+		</figcaption>
+	</figure> <!-- card // -->
+</div> <!-- col // -->
+<div class="col-md-3">
+	<figure class="card card-product">
+		<div class="img-wrap"><img src="/static/img/3.jpg"> 
+		<a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+		</div>
+		<figcaption class="info-wrap">
+			<h6 class="title text-dots"><a href="#">Nepali Printed Tshirt</a></h6>
+			<div class="action-wrap">
+				<a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+				<div class="price-wrap h5">
+					<span class="price-new">Rs1200</span>
+          <span class="price-old">#0003</span>
+				</div> <!-- price-wrap.// -->
+			</div> <!-- action-wrap -->
+		</figcaption>
+	</figure> <!-- card // -->
+</div> <!-- col // -->
+<div class="col-md-3">
+	<figure class="card card-product">
+		<div class="img-wrap"> <img src="/static/img/24.jpg">
+		</div>
+		<figcaption class="info-wrap">
+			<h6 class="title text-dots"><a href="#">Pantera band Tshirt</a></h6>
+			<div class="action-wrap">
+				<a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+				<div class="price-wrap h5">
+					<span class="price-new">Rs550</span>
+          <span class="price-old">#0004</span>
+				</div> <!-- price-wrap.// -->
+			</div> <!-- action-wrap -->
+		</figcaption>
+	</figure> <!-- card // -->
+</div> <!-- col // -->
+</div> <!-- row.// -->
+
+
+</div> 
+<!--container end-->
+
+
+<div class="container">
+
+
+  <div class="row">
+  <div class="col-md-3">
+    <figure class="card card-product">
+      <div class="img-wrap"> 
+        <img src="/static/img/6.jpg">
+        <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+      </div>
+      <figcaption class="info-wrap">
+        <h6 class="title text-dots"><a href="#">Denim Casual Pure Cotton Tshirt</a></h6>
+        <div class="action-wrap">
+          <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+          <div class="price-wrap h5">
+            <span class="price-new">Rs1200</span>
+            <span class="price-old">#0005</span>
+          </div> <!-- price-wrap.// -->
+        </div> <!-- action-wrap -->
+      </figcaption>
+    </figure> <!-- card // -->
+  </div> <!-- col // -->
+  <div class="col-md-3">
+    <figure class="card card-product">
+      <div class="img-wrap"> <img src="/static/img/7.jpg"
+      <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>Quick View </a>
+      </div>
+      <figcaption class="info-wrap">
+        <h6 class="title text-dots"><a href="#">Summer Hoodie With Cool Print</a></h6>
+        <div class="action-wrap">
+          <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+          <div class="price-wrap h5">
+            <span class="price-new">Rs2280</span>
+            <span class="price-old">#0006</span>
+          </div> <!-- price-wrap.// -->
+        </div> <!-- action-wrap -->
+      </figcaption>
+    </figure> <!-- card // -->
+  </div> <!-- col // -->
+  <div class="col-md-3">
+    <figure class="card card-product">
+      <div class="img-wrap"><img src="/static/img/8.jpg"> 
+      </div>
+      <figcaption class="info-wrap">
+        <h6 class="title text-dots"><a href="#">Map of Nepal Sweatshirt</a></h6>
+        <div class="action-wrap">
+          <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+          <div class="price-wrap h5">
+            <span class="price-new">Rs1200</span>
+            <span class="price-old">#0007</span>
+          </div> <!-- price-wrap.// -->
+        </div> <!-- action-wrap -->
+      </figcaption>
+    </figure> <!-- card // -->
+  </div> <!-- col // -->
+  <div class="col-md-3">
+    <figure class="card card-product">
+      <div class="img-wrap"> <img src="/static/img/9.jpg">
+      </div>
+      <figcaption class="info-wrap">
+        <h6 class="title text-dots"><a href="#">Your logo here Tshirt</a></h6>
+        <div class="action-wrap">
+          <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+          <div class="price-wrap h5">
+            <span class="price-new">Rs600</span>
+            <span class="price-old">#0009</span>
+          </div> <!-- price-wrap.// -->
+        </div> <!-- action-wrap -->
+      </figcaption>
+    </figure> <!-- card // -->
+  </div> <!-- col // -->
+  </div> <!-- row.// -->
+  
+  
+  </div> 
+  <!--container end-->
+  <h2>Branded Clothes</h2>
+  <h2 style="color:white">``</h2>
+  <div class="container">
+
+
+    <div class="row">
+    <div class="col-md-3">
+      <figure class="card card-product">
+        <div class="img-wrap"> 
+          <img src="/static/img/10.jpg">
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots"><a href="#">Nepal Printed Tshirt</a></h6>
+          <div class="action-wrap">
+            <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+            <div class="price-wrap h5">
+              <span class="price-new">Rs900</span>
+              <span class="price-old">#0010</span>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- action-wrap -->
+        </figcaption>
+      </figure> <!-- card // -->
+    </div> <!-- col // -->
+    <div class="col-md-3">
+      <figure class="card card-product">
+        <div class="img-wrap"> <img src="/static/img/11.jpg">
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots"><a href="#">3d Print Hoodie</a></h6>
+          <div class="action-wrap">
+            <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+            <div class="price-wrap h5">
+              <span class="price-new">Rs2000</span>
+              <span class="price-old">#0011</span>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- action-wrap -->
+        </figcaption>
+      </figure> <!-- card // -->
+    </div> <!-- col // -->
+    <div class="col-md-3">
+      <figure class="card card-product">
+        <div class="img-wrap"><img src="/static/img/13.jpg"> 
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots"><a href="#">Nasa Printed Sweatshirt</a></h6>
+          <div class="action-wrap">
+            <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+            <div class="price-wrap h5">
+              <span class="price-new">Rs1200</span>
+              <span class="price-old">#0012</span>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- action-wrap -->
+        </figcaption>
+      </figure> <!-- card // -->
+    </div> <!-- col // -->
+    <div class="col-md-3">
+      <figure class="card card-product">
+        <div class="img-wrap"> <img src="/static/img/14.jpg">
+        </div>
+        <figcaption class="info-wrap">
+          <h6 class="title text-dots"><a href="#">Cr7 Sweatshirt</a></h6>
+          <div class="action-wrap">
+            <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+            <div class="price-wrap h5">
+              <span class="price-new">Rs2180</span>
+              <span class="price-old">#0013</span>
+            </div> <!-- price-wrap.// -->
+          </div> <!-- action-wrap -->
+        </figcaption>
+      </figure> <!-- card // -->
+    </div> <!-- col // -->
+    </div> <!-- row.// -->
+    
+    
+    </div> 
+    <!--container end-->
+
+
+    <div class="container">
+
+
+      <div class="row">
+      <div class="col-md-3">
+        <figure class="card card-product">
+          <div class="img-wrap"> 
+            <img src="/static/img/15.jpg">
+          </div>
+          <figcaption class="info-wrap">
+            <h6 class="title text-dots"><a href="#">"how you doing" Sweatshirt</a></h6>
+            <div class="action-wrap">
+              <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs1300</span>
+                <span class="price-old">#0014</span>
+              </div> <!-- price-wrap.// -->
+            </div> <!-- action-wrap -->
+          </figcaption>
+        </figure> <!-- card // -->
+      </div> <!-- col // -->
+      <div class="col-md-3">
+        <figure class="card card-product">
+          <div class="img-wrap"> <img src="/static/img/16.jpg">
+          </div>
+          <figcaption class="info-wrap">
+            <h6 class="title text-dots"><a href="#">TP Cool Tshirt</a></h6>
+            <div class="action-wrap">
+              <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs980</span>
+                <span class="price-old">#0015</span>
+              </div> <!-- price-wrap.// -->
+            </div> <!-- action-wrap -->
+          </figcaption>
+        </figure> <!-- card // -->
+      </div> <!-- col // -->
+      <div class="col-md-3">
+        <figure class="card card-product">
+          <div class="img-wrap"><img src="/static/img/18.jpg"> 
+          </div>
+          <figcaption class="info-wrap">
+            <h6 class="title text-dots"><a href="#">Nepali Printed Tshirt</a></h6>
+            <div class="action-wrap">
+              <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs1200</span>
+                <span class="price-old">#0017</span>
+              </div> <!-- price-wrap.// -->
+            </div> <!-- action-wrap -->
+          </figcaption>
+        </figure> <!-- card // -->
+      </div> <!-- col // -->
+      <div class="col-md-3">
+        <figure class="card card-product">
+          <div class="img-wrap"> <img src="/static/img/19.jpg">
+          </div>
+          <figcaption class="info-wrap">
+            <h6 class="title text-dots"><a href="#">Shiva Ji Tshirt</a></h6>
+            <div class="action-wrap">
+              <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+              <div class="price-wrap h5">
+                <span class="price-new">Rs1280</span>
+                <span class="price-old">#0018</span>
+              </div> <!-- price-wrap.// -->
+            </div> <!-- action-wrap -->
+          </figcaption>
+        </figure> <!-- card // -->
+      </div> <!-- col // -->
+      </div> <!-- row.// -->
+      
+      
+      </div> 
+      <!--container end-->
+
+      
+
+<h2>Designers Clothes</h2>
+<h2 style="color:white">``</h2>
+      <div class="container">
+
+
+        <div class="row">
+        <div class="col-md-3">
+          <figure class="card card-product">
+            <div class="img-wrap"> 
+              <img src="/static/img/20.jpg">
+            </div>
+            <figcaption class="info-wrap">
+              <h6 class="title text-dots"><a href="#">Nft Bored Ape Printed Tshirt</a></h6>
+              <div class="action-wrap">
+                <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                <div class="price-wrap h5">
+                  <span class="price-new">Rs1800</span>
+                  <span class="price-old">#0019</span>
+                </div> <!-- price-wrap.// -->
+              </div> <!-- action-wrap -->
+            </figcaption>
+          </figure> <!-- card // -->
+        </div> <!-- col // -->
+        <div class="col-md-3">
+          <figure class="card card-product">
+            <div class="img-wrap"> 
+              <img src="/static/img/21.jpg">
+            </div>
+            <figcaption class="info-wrap">
+              <h6 class="title text-dots"><a href="#">Squid Game Tshirt</a></h6>
+              <div class="action-wrap">
+                <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                <div class="price-wrap h5">
+                  <span class="price-new">Rs580</span>
+                  <span class="price-old">#0020</span>
+                </div> <!-- price-wrap.// -->
+              </div> <!-- action-wrap -->
+            </figcaption>
+          </figure> <!-- card // -->
+        </div> <!-- col // -->
+        <div class="col-md-3">
+          <figure class="card card-product">
+            <div class="img-wrap"><img src="/static/img/23.jpg"> 
+            </div>
+            <figcaption class="info-wrap">
+              <h6 class="title text-dots"><a href="#">Roblux Tshirt</a></h6>
+              <div class="action-wrap">
+                <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                <div class="price-wrap h5">
+                  <span class="price-new">Rs1200</span>
+                  <span class="price-old">#0021</span>
+                </div> <!-- price-wrap.// -->
+              </div> <!-- action-wrap -->
+            </figcaption>
+          </figure> <!-- card // -->
+        </div> <!-- col // -->
+        <div class="col-md-3">
+          <figure class="card card-product">
+            <div class="img-wrap"> <img src="/static/img/6.jpg">
+            </div>
+            <figcaption class="info-wrap">
+              <h6 class="title text-dots"><a href="#">Armani Tshirt</a></h6>
+              <div class="action-wrap">
+                <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                <div class="price-wrap h5">
+                  <span class="price-new">Rs3280</span>
+                  <span class="price-old">#0022</span>
+                </div> <!-- price-wrap.// -->
+              </div> <!-- action-wrap -->
+            </figcaption>
+          </figure> <!-- card // -->
+        </div> <!-- col // -->
+        </div> <!-- row.// -->
+        
+        
+        </div> 
+        <!--container end-->
+        
+        <div class="container">
+
+
+          <div class="row">
+          <div class="col-md-3">
+            <figure class="card card-product">
+              <div class="img-wrap"> 
+                <img src="/static/img/1.jpg">
+                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+              </div>
+              <figcaption class="info-wrap">
+                <h6 class="title text-dots"><a href="#">Demin Chrome Dino Tshirt</a></h6>
+                <div class="action-wrap">
+                  <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                  <div class="price-wrap h5">
+                    <span class="price-new">Rs1280</span>
+                    <span class="price-old">#0023</span>
+                  </div> <!-- price-wrap.// -->
+                </div> <!-- action-wrap -->
+              </figcaption>
+            </figure> <!-- card // -->
+          </div> <!-- col // -->
+          <div class="col-md-3">
+            <figure class="card card-product">
+              <div class="img-wrap"> <img src="/static/img/2.jpg"
+              <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i>Quick View </a>
+              </div>
+              <figcaption class="info-wrap">
+                <h6 class="title text-dots"><a href="#">Animal Printed Adidas Tshirt</a></h6>
+                <div class="action-wrap">
+                  <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                  <div class="price-wrap h5">
+                    <span class="price-new">Rs2280</span>
+                    <span class="price-old">#0024</span>
+                  </div> <!-- price-wrap.// -->
+                </div> <!-- action-wrap -->
+              </figcaption>
+            </figure> <!-- card // -->
+          </div> <!-- col // -->
+          <div class="col-md-3">
+            <figure class="card card-product">
+              <div class="img-wrap"><img src="/static/img/3.jpg"> 
+              <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+              </div>
+              <figcaption class="info-wrap">
+                <h6 class="title text-dots"><a href="#">Nepali Printed Tshirt</a></h6>
+                <div class="action-wrap">
+                  <a href="/contact" class="btn btn-primary btn-sm float-right"> Order </a>
+                  <div class="price-wrap h5">
+                    <span class="price-new">Rs1200</span>
+                    <span class="price-old">#0025</span>
+                  </div> <!-- price-wrap.// -->
+                </div> <!-- action-wrap -->
+              </figcaption>
+            </figure> <!-- card // -->
+          </div> <!-- col // -->
+          <div class="col-md-3">
+            <figure class="card card-product">
+              <div class="img-wrap"> <img src="/static/img/7.jpg">
+                <a class="btn-overlay" href="#"><i class="fa fa-search-plus"></i> Quick view</a>
+              </div>
+              <figcaption class="info-wrap">
+                <h6 class="title text-dots"><a href="#">Armani Hoodie</a></h6>
+                <div class="action-wrap">
+                  <a href="/contact " class="btn btn-primary btn-sm float-right" value=> Order </a>
+                  <div class="price-wrap h5">
+                    <span class="price-new">Rs3280</span>
+                    <span class="price-old">#0026</span>
+                  </div> <!-- price-wrap.// -->
+                </div> <!-- action-wrap -->
+              </figcaption>
+            </figure> <!-- card // -->
+          </div> <!-- col // -->
+          </div> <!-- row.// -->
+          
+          
+          </div> 
+          <!--container end-->
+          
+
+{%endblock body%}
